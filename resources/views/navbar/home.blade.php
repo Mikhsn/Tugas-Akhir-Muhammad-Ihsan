@@ -18,9 +18,9 @@
                 </div> --}}
                 </div>
                 <div class="col-lg-2 col"></div>
-                <div class="col-lg-4 col-md-6 mt-0 mt-md-5">
+                {{-- <div class="col-lg-4 col-md-6 mt-0 mt-md-5">
                     <form action="#" class="request-form ftco-animate">
-                        <h2>Join Our Member & Get Discount</h2>
+                        <h2>Join Our Member & Get Discount</h2> --}}
                         {{-- <div class="form-group">
                             <input type="text" class="form-control" placeholder="Enter your Name">
                         </div>
@@ -36,11 +36,11 @@
                                     the terms and conditions</label>
                             </div>
                         </div> --}}
-                        <div class="form-group">
+                        {{-- <div class="form-group">
                             <input type="submit" value="Join now" class="btn btn-primary py-3 px-4">
                         </div>
                     </form>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -155,7 +155,7 @@
                             safe country. But nothing the copy said could convince her and so it didn’t take long until
                             a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
                             her into their agency, where they abused her for their.</p> --}}
-                        <p><a href="#" class="btn btn-primary">Join now</a></p>
+                        <p><a href="/login" class="btn btn-primary">Join now</a></p>
                     </div>
                 </div>
             </div>

@@ -17,14 +17,14 @@
                         class="nav-link">News</a></li>
                 <li class="nav-item {{ Request::is('home/ourteam') ? 'active' : '' }}"><a href="/home/ourteam"
                         class="nav-link">Ourteam</a></li>
-                <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="contact.html"
-                        class="nav-link">Project</a></li>
+                {{-- <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="contact.html"
+                        class="nav-link">Project</a></li> --}}
 
-                @if (!Request::is('home'))
-                    <li class="nav-item cta mr-md-2"><a href="/login" class="nav-link">Join</a></li>
+                @if (!Request::is('home','login'))
+                <li class="nav-item cta mr-md-2"><a href="/login" class="nav-link">Login</a></li>
+                <li class="nav-item cta mr-md-2"><a href="/register" class="nav-link">Register</a></li>
                 @endif
             </ul>
         </div>
-
     </div>
 </nav>

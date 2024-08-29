@@ -14,4 +14,20 @@
 <script src="{{ asset('js/google-map.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
+<script src="{{ asset ('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js') }}"></script>
+<script src="{{ asset ('https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset ('https://code.jquery.com/jquery-3.6.0.min.js') }}"></script>
 
+<script src="{{ asset ('https://code.jquery.com/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset ('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js') }}"></script>
+<script src="{{ asset ('https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js') }}"></script>
+<script>
+    $(document).ready(function(){
+        $('select[name="user_type"]').on('change', function(){
+            if($(this).val() === 'member'){
+                // Tampilkan pesan diskon atau elemen lain
+                alert('Sebagai Member, Anda mendapatkan diskon!');
+            }
+        });
+    });
+</script>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Web Conference</title>
+    <title>Sotvi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/images/logo.png" type="icon">
@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    {{-- @if (Auth::check())
+
+    @endif --}}
     @include('include.navbar')
     @yield('section')
     <section class="ftco-section-parallax ftco-section ftco-no-pt">

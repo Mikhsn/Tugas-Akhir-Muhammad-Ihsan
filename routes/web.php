@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MasterController;
+use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () {
@@ -19,8 +20,9 @@ Route::get('/home/news',[MasterController::class, 'news']);
 Route::get('/home/news/news-single',[MasterController::class, 'newssingle']);
 Route::get('/home/ourteam',[MasterController::class, 'ourteam']);
 
-Route::get('login',[LoginController::class, 'index'])->name('login');
+Route::get('/login',[LoginController::class, 'index'])->name('login');
 
+Route::get('/register',[RegisterController::class, 'index'])->name('register');
 
 // Route::get('/ourteam', function () {
 //     return view('ourteam');
