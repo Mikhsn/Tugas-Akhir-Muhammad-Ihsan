@@ -7,27 +7,27 @@ use Illuminate\Http\Request;
 class MasterController extends Controller
 {
     public function index (){
-        return view('home');
+        return view('navbar.home');
     }
 
     public function journals (){
-        return view('journals');
+        return view('navbar.journals');
     }
 
     public function conferences (){
-        return view('conferences');
+        return view('navbar.conferences');
     }
 
     public function news (){
-        return view('news');
+        return view('navbar.news');
     }
 
     public function newssingle (){
-        return view('news-single');
+        return view('navbar.news-single');
     }
 
     public function ourteam (){
-        return view('ourteam');
+        return view('navbar.ourteam');
     }
 
 }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MasterController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,7 @@ Route::get('/home/news',[MasterController::class, 'news']);
 Route::get('/home/news/news-single',[MasterController::class, 'newssingle']);
 Route::get('/home/ourteam',[MasterController::class, 'ourteam']);
 
+Route::get('login',[LoginController::class, 'index'])->name('login');
 
 
 // Route::get('/ourteam', function () {
